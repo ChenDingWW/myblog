@@ -15,7 +15,7 @@ permalink: /chineseartists/
 
        {% assign num = 3 %}
        {% for i in (1..num) %}
-        "{{ artist.EnglishName | replace: " ", "_" }}" | append: "_0{{ i }}"
+        {{ artist.EnglishName | replace: " ", "_" }}" | append: "_0{{ i }}
        {% endfor %}
       </li>
     {% endfor %}
