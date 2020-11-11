@@ -17,16 +17,7 @@ permalink: /chineseartists/
 
        {% for i in (1..3) %}
        <p>
-       <img src = "/china-artworks/{{ artist.EnglishName 
-        | replace: ' ', '_' 
-        | append: '_' 
-        | append: artist.ChineseName
-         }}
-         /{{ artist.EnglishName 
-            | replace: ' ', '_' 
-            | append: '_0' 
-            | append: i
-             }}.jpg" >
+       <img src = "/china-artworks/{{ artist.EnglishName | replace: ' ', '_' | append: '_' | append: artist.ChineseName }}/{{ artist.EnglishName | replace: ' ', '_' | append: '_0' | append: i }}.jpg" >
        </p>
        {% endfor %}
       </li>
