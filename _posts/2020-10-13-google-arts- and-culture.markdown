@@ -3,6 +3,7 @@ layout: post
 title:  "Google Arts & Culture Expedition"
 date:   2020-10-13 11:52:15 +0100
 categories: museum expedition
+permalink: /googleartsandculture/
 ---
 
 Things from Google Arts & Culture I find special:

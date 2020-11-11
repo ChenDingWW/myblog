@@ -3,6 +3,7 @@ layout: post
 title:  "British Museum"
 date:   2020-10-06 11:52:15 +0100
 categories: museum expedition
+permalink: /britishmuseum/
 ---
 
 The British Museum was established in 1753 mainly based on the collections of the Irish physician and scientist Sir Hans Sloane, who bequeathed his collection of 71,000 items to the British nation. It remains a controversial topic that some of British Museum's collections are the result of British colonisation, for example, the famous **Elgin Marbles** of Greece and the **Rosetta Stone** of Egypt.

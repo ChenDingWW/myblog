@@ -3,6 +3,7 @@ layout: post
 title:  "McCord Museum"
 date:   2020-10-28 17:52:15 +0100
 categories: museum expedition
+permalink: /mccordmuseum/
 ---
 
 For the McCord Museum, I mainly focused on its online collection section, which is built separately from the museum website as a database. The database has a search function which supports keywords search and advanced search. The collections are divided into 6 parts, including:

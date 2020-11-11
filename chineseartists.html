@@ -1,0 +1,13 @@
+---
+layout: page
+title: Chinese Artists
+permalink: /chineseartists/
+---
+
+<ul>
+    {% for artist in site.data.artists %}
+      <li>
+       {{ artist.EnglishName }}
+      </li>
+    {% endfor %}
+</ul>
