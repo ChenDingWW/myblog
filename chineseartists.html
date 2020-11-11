@@ -7,11 +7,16 @@ permalink: /chineseartists/
 <ul>
     {% for artist in site.data.artists %}
       <li>
-       {{ artist.EnglishName }}
+       <p>{{ artist.EnglishName }}
        {{ artist.ChineseName }}
        {{ artist.Nationality }}
        {{ artist.Gender }}
-       {{ artist.BirthYear }} - {{ artist.DeathYear}}
+       {{ artist.BirthYear }} - {{ artist.DeathYear}}</p>
+
+       {% assign num = 3 %}
+       {% for i in (1..num) %}
+        "{{ artist.EnglishName | replace: " ", "_" }}" | append: "_0{{ i }}"
+       {% endfor %}
       </li>
     {% endfor %}
 </ul>
