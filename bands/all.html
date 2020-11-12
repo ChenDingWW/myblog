@@ -7,7 +7,11 @@ permalink: /allbands/
 <ul>
 {% for band in site.data.metal_bands_2017 %}
 <li>
-{{ band.band_name }} has {{ band.fans }} fans, formed in {{ band.formed }} in {{ band.origin }}, with a style of "{{ band.style | replace: ",", ", "}}".
+{% if band.split == "-" %}
+    {{ band.band_name }} has {{ band.fans }} fans, formed in {{ band.formed }} in {{ band.origin }}, with a style of "{{ band.style | replace: ",", ", "}}".
+{% else %}
+    {{ band.band_name }} has {{ band.fans }} fans, formed in {{ band.formed }} in {{ band.origin }} and split in {{ band.split }}, with a style of "{{ band.style | replace: ",", ", "}}".
+{% endif %}
 </li>
 {% endfor %}
 </ul>
