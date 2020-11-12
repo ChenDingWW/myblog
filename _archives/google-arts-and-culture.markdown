@@ -2,7 +2,7 @@
 layout: digitalarchive
 name: Google Arts & Culture
 url: https://artsandculture.google.com/
-screenshot_image: /media/google-arts-and-culture-screeshot.png
+screenshot_image: /media/google-arts-and-culture-screenshot.png
 my_review_url: https://chendingblog.netlify.app/googleartsandculture/
 date_of_visit: 2020-10-13
 favourite_obect_name: Baby Doll' cocktail dress
