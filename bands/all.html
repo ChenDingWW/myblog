@@ -7,11 +7,7 @@ permalink: /allbands/
 <li>
 {% for metal_band in site.data.metal_bands %}
 <ul>
-{% if split == "-" %}
-    {{ band_name }} has {{ fans }} fans, formed in {{ formed }} in {{ origin }}, with a style of {{ style }}.
-{% else %}
-    {{ band_name }} has {{ fans }} fans, formed in {{ formed }} in {{ origin }} and split in {{ split }}, with a style of {{ style }}.
-{% endif %}
+{{ band_name }} has {{ fans }} fans, formed in {{ formed }} in {{ origin }}, with a style of {{ style }}.
 </ul>
 {% endfor %}
 </li>
