@@ -1,0 +1,9 @@
+---
+layout: page
+title: Archives
+permalink: /archives/
+---
+
+{% for archive in site.archives %}
+    <h2><a href="{{ archive.url }}">{{ archive.name }}</a></h2>
+{% endfor %}
